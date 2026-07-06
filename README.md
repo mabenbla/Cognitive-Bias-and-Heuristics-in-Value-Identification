@@ -1,21 +1,23 @@
-# Rethinking Value Identification from a Cognitive Perspective
+# Rethinking Value-Based Content Detection in Argument Mining: A cognitively-Based Approach
+
+### Conference: CERCA’26: Workshop for Cognitive and Empirical Research on Computational Argumentation, September 14-15, Barcelona, Spain
 
 ## Overview
 
 This repository contains the code accompanying the paper:
-
-
 
 ## Repository Structure
 
 * `requirements.txt`
   List of dependencies required to run the notebooks.
 
-* `experimental_code.ipynb`
-  Main notebook for: dataset processing and LLM-based annotation generation
+* `LLM_predictor.ipynb`
+  Main notebook for dataset processing and LLM-based annotation generation, for baseline (just LLM) and bias-specific predictions
 
-* `evaluations.ipynb`
-  Notebook for: evaluation of agreement with human annotations, generating plots and figures, computing aggregate metrics and performing qualitative and quantitative analysis
+* `error_solving_analysis.ipynb`
+  Notebook for solving all errors associated with predictions (different value names, types, etc.)
+
+* `evaluation.ipynb`
 
 ---
 
